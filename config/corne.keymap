@@ -17,6 +17,10 @@
 #define NAV 3
 #define RDL 4
 
+&kscan0 {
+    debounce-period = <10>;
+};
+
 &lt {
     quick_tap_ms = <150>;
 };
